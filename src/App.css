@@ -1,0 +1,110 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  
+}
+li{
+  float: left;
+  
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: medium;
+  
+
+}
+li a:hover{
+  background-color: #111;
+}
+.active{
+  background-color: #04AA6D;
+}
+.main_footer{
+  display: grid;
+  grid-template-columns:  auto auto auto auto;
+  /* background-color: #04AA6D; */
+  justify-content: space-around;
+  text-decoration: none;
+  color: white;
+  background-color: #111;
+  /* flex-direction: column; */
+  padding-bottom: 20px;
+  
+}
+#footer{
+  color: white;
+  background-color: #111;
+  
+}
+.comp_data{
+  text-align: center;
+  padding: 20px;
+    
+}
+a{
+  display: block;
+  text-decoration: none;
+  margin-bottom: 4px;
+  color: antiquewhite;
+}
+h4{
+  margin: 10px 0px 10px 0px;
+}
+.headline{
+  text-align: center;
+  background-image: url(https://www.joeyblsphotography.com/wp-content/uploads/2013/07/Tribeca-Restaurant-Casablanca.jpg);
+  width: 100%;
+  height: 300px;
+padding: 10%;
+color: white;
+
+}
+.sec_div{
+  justify-content: center;
+  text-align: center;
+  background-color: #111;
+}
+.sec_div img{
+  margin-top: 60px;
+  width: 40%;
+  height: 400px;
+  margin-left: 10px;
+  box-shadow: bisque;
+
+}
+.itm{
+  height: 400px;
+ background-image: url(https://www.qantas.com/content/dam/travelinsider/images/trending/the-best-new-restaurants-in-june-2017/7319e52a-432f-4a5e-9bb1-6ce6bfe8f9e9.jpg);
+ text-align: center;
+ color: white;
+ padding: 20%;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@media screen and(max-width:600px) {
+
+  .main_footer{
+  display: grid;
+  grid-template-columns:  auto auto ;
+  /* background-color: #04AA6D; */
+  justify-content: space-around;
+  text-decoration: none;
+  color: white;
+  background-color: #111;
+  /* flex-direction: column; */
+  padding-bottom: 20px;
+  
+}
+}
